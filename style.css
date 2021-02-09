@@ -1,0 +1,182 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    background-image: url(./twitch.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+    
+}
+
+.menus{
+    background:rgba(244, 244, 245, 0.199);
+     text-align: left;
+     
+
+}
+
+.menulist_1{
+    color:black;
+    
+    
+}
+
+.menus ul{
+    display: inline-flex;
+    
+}
+
+.menus ul li {
+    
+    margin-top: 10px;
+    margin-left: 15px;
+    padding: 6px;
+    list-style: none;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: solid black;
+    
+}
+
+
+.active{
+    background: whitesmoke;
+    border-radius: 3.5px;
+    position: relative;
+}
+
+.menus ul li:hover{
+    background: whitesmoke;
+    border-radius: 3.5px;
+   
+}
+
+a{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.submenu-1{
+    display: none;
+}
+
+.menus ul li:hover .submenu-1{
+    display: block;
+    background:rgba(247, 243, 243, 0.541);
+    border-radius: 4px;
+    margin-top: 7px;
+    margin-left:10px;
+    position: absolute;
+    border-right:5px solid #6441a5dc;
+}
+
+.submenu{
+    display: none;
+}
+
+.menus ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    background:rgba(247, 243, 243, 0.541);
+    border-radius: 4px;
+    margin-top: 7px;
+    margin-left:10px;    
+}
+
+.menus ul li:hover .submenu ul{
+    display: block;
+   
+    
+}
+
+.menus ul li:hover .submenu-1 ul{
+    display: block;
+    
+}
+.menus ul li:hover .submenu{
+    border-right:5px solid #6441a5dc;
+}
+
+.form_field{
+    background:rgba(247, 243, 243, 0.637);
+    position: absolute;
+    border-radius: 10px;
+    width: 500px;
+    height: 400px;
+    top: 200px;
+    right: 950px;
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 130px;
+    position: relative;
+    margin-top: 120px;
+    margin-left: 120px;
+}
+
+.user_name, .pass, .button{
+    padding: 10px;
+    
+}
+
+.noaccount{
+    position: absolute;
+    bottom: -48px;
+    right: 0px;
+}
+
+.button{
+     position: absolute;
+     bottom: -60px;
+     left: 0px;
+     
+}
+
+button{
+    background:#6441a5a4;
+    padding:5px;
+    border-radius: 2px;
+}
+
+button a{
+    color: white;
+}
+
+#name, #code{
+    background-color:rgba(255, 255, 255, 0.336) ;
+    border-radius: 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none; 
+    border-bottom: 1.8px solid #6441a5a4;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    padding-right: 75px; 
+      
+}
+
+.logo{
+    position: absolute;
+    top: -80px;
+    left: -65px;
+}
+
+
+.user, .privacy{
+    padding-left:-80px;
+}
